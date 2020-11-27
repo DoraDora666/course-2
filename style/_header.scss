@@ -1,0 +1,36 @@
+.product-name {
+  display: flex;
+  background-color: $color-blue;
+  padding: 25px 50px 0 50px;
+  justify-content: space-between;
+}
+
+.product-name-text {
+  @include text-style;
+  font-size: 60px;
+  line-height: 69px;
+  color: $color-white;
+  margin: 0;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.product-name-list-points>li::before{
+  content: '✔ ';
+}
+
+.product-name-list {
+  padding-top: 40px;
+  color: $color-white;
+  @include text-style;
+}
+
+.product-name-video {
+  width:472px;
+  height:217px;
+  background-color: $color-white;
+  margin-bottom: 33px;
+}

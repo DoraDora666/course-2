@@ -1,0 +1,53 @@
+.screenshots {
+  padding: 25px 50px;
+}
+
+.screenshots-header {
+  padding-bottom: 25px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  @include text-style;
+  color: $color-blue;
+}
+
+.screenshots-wrap {
+  display: flex;
+}
+
+.content-img {
+  width: 202px;
+  min-width: 202px;
+  height: 153px;
+  background-color: $color-blue;
+  margin-right: 14px;
+}
+
+.screenshots-wrap-left-content,
+.screenshots-wrap-right-content {
+  display: flex;
+  padding-bottom: 27px;
+}
+
+.content-header {
+  font-size: 24px;
+  line-height: 30px;
+  color: $color-blue;
+  @include text-style;
+  margin-bottom: 13px;
+}
+
+.screenshots-wrap-left-content {
+  padding-right: 15px;
+}
+
+.screenshots-wrap-right-content {
+  padding-left: 15px;
+}
+
+.content-description {
+  font-size: 16px;
+  line-height: 24px;
+  @include text-style;
+
+}

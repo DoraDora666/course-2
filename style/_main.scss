@@ -1,0 +1,28 @@
+.main {
+padding: 120px 50px 0 50px;
+  display: flex;
+}
+
+.main-video {
+  width: 430px;
+  min-width: 430px;
+  height: 245px;
+  margin-left: 96px;
+  background-color: $color-blue;
+}
+
+.main-description-about {
+  @include text-style;
+  color: $color-blue;
+  padding-bottom: 17px;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.main-description-text-lorem,
+.main-description-text-pariatur {
+  @include text-style;
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+}
