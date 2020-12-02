@@ -104,6 +104,10 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
+details summary:focus {
+  outline: 0;
+}
+
 .items-points-left details summary:before,
 .items-points-right details summary:before {
   content: "+";
