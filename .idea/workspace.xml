@@ -10,16 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="932b432d-b5df-4de0-a106-21ee009a90b6" name="Default Changelist" comment="polovinka-upd">
-      <change afterPath="$PROJECT_DIR$/style/_buy.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/_reviews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="932b432d-b5df-4de0-a106-21ee009a90b6" name="Default Changelist" comment="vce-upd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +54,7 @@
       <workItem from="1606307032160" duration="3294000" />
       <workItem from="1606483814127" duration="1818000" />
       <workItem from="1606485785370" duration="1715000" />
-      <workItem from="1606487709789" duration="21817000" />
+      <workItem from="1606487709789" duration="22574000" />
     </task>
     <task id="LOCAL-00001" summary="polovinka">
       <created>1606510401527</created>
@@ -86,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606920801871</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vce-upd">
+      <created>1606932353216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606932353216</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="polovinka" />
     <MESSAGE value="polovinka-upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="polovinka-upd" />
+    <MESSAGE value="vce-upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="vce-upd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1606304916369">
@@ -118,10 +117,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606304918863" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1606920802637">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1606932359817">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606920802637" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606932359817" />
     <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1606495663938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

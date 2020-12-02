@@ -9,6 +9,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: #d9d9d9;
+}
+
 .product-name {
   display: flex;
   background-color: #445161;
