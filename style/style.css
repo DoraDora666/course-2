@@ -46,10 +46,22 @@ ul {
 }
 
 .product-name-video {
-  width: 472px;
+  width: 289px;
   height: 217px;
   background-color: #FFFFFF;
   margin-bottom: 33px;
+}
+
+.product-name-wrap {
+  position: relative;
+}
+
+.product-name-img {
+  position: absolute;
+  width: 289px;
+  height: 217px;
+  top: 0;
+  left: 0;
 }
 
 .main {
