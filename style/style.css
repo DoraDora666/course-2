@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 .product-name {
   display: flex;
   background-color: #445161;
@@ -190,6 +194,237 @@ details summary:focus {
   line-height: 24px;
   font-family: Roboto, serif;
   font-weight: 400;
+}
+
+.reviews {
+  padding: 25px 50px;
+  background-color: #F5F5F5;
+}
+
+.reviews-header {
+  padding-bottom: 25px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  color: #445161;
+}
+
+.reviews-wrap {
+  display: flex;
+}
+
+.reviews-content-img {
+  width: 64px;
+  min-width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #445161;
+  margin-right: 14px;
+}
+
+.reviews-wrap-left-content,
+.reviews-wrap-right-content {
+  display: flex;
+  padding-bottom: 27px;
+}
+
+.reviews-content-footer {
+  background-color: #EBEBEB;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 18px;
+  color: #989898;
+  padding: 5px 0;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+
+.reviews-wrap-left-content {
+  padding-right: 15px;
+}
+
+.reviews-wrap-right-content {
+  padding-left: 15px;
+}
+
+.reviews-content-description {
+  background-color: #EBEBEB;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Roboto, serif;
+  font-weight: 400;
+}
+
+.buy {
+  padding: 45px 137px 50px 145px;
+}
+
+.buy-header {
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.buy-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.buy-price-wrap {
+  background-color: #445161;
+  border-radius: 5px;
+}
+
+.buy-price-wrap-header {
+  color: #FFFFFF;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  font-weight: 300;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 14px;
+  padding-bottom: 7px;
+}
+
+.buy-price-wrap-price {
+  background: #FFFFFF;
+  border: 2px solid #445162;
+  box-sizing: border-box;
+  text-align: center;
+  color: #445161;
+  font-size: 40px;
+  line-height: 30px;
+  padding: 25px 0 16px 0;
+}
+
+.buy-price-wrap-points {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  justify-content: space-between;
+  padding: 5px 5px 14px 40px;
+}
+
+.buy-price-wrap-button {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #445161;
+  text-align: center;
+  border: #445161 1px;
+  border-radius: 5px;
+  padding: 10px 125px;
+  margin: 0 19px 19px 19px;
+}
+
+.buy-price-wrap-button:focus {
+  outline: 0;
+}
+
+.footer {
+  padding: 25px 247px 48px 247px;
+  background-color: #445161;
+}
+
+.footer-header {
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+fieldset {
+  border: none;
+}
+
+.footer-wrap {
+  display: flex;
+}
+
+.footer-wrap-forms-name,
+.footer-wrap-forms-email,
+.footer-wrap-forms-text {
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px 0 7px 12px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  color: #445161;
+}
+
+.footer-wrap-forms-name,
+.footer-wrap-forms-email,
+.footer-wrap-forms-text:focus {
+  outline: 0;
+}
+
+.footer-wrap-forms-button {
+  margin: 18px 180px 0 180px;
+  padding: 12px 50px 7px 50px;
+  color: #445161;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-wrap-contacts {
+  padding-left: 45px;
+}
+
+.skype,
+.icq,
+.e-mail,
+.phone {
+  padding-bottom: 18px;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto, serif;
+  font-weight: 400;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons-twitter,
+.icons-facebook,
+.icons-google,
+.icons-vk {
+  margin-top: 47px;
+  margin-right: 3px;
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+}
+
+.icons-twitter:hover,
+.icons-facebook:hover,
+.icons-google:hover,
+.icons-vk:hover {
+  border-radius: 50%;
+  background-color: #989898;
 }
 
 /*# sourceMappingURL=style.css.map */

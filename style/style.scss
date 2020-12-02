@@ -1,10 +1,16 @@
 $color-blue: #445161;
 $color-white: #FFFFFF;
 $color-grey: #F5F5F5;
+$color-dark-grey: #EBEBEB;
 body {
   padding: 0;
   margin: 0;
 }
+
+button {
+  cursor: pointer;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @mixin text-style {
   font-family: Roboto, serif;
@@ -15,3 +21,6 @@ body {
 @import "main";
 @import "items";
 @import "screenshots";
+@import "reviews";
+@import "buy";
+@import "footer";

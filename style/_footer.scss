@@ -1,0 +1,90 @@
+.footer {
+  padding: 25px 247px 48px 247px;
+  background-color: $color-blue;
+}
+
+.footer-header {
+  color: $color-white;
+  font-size: 30px;
+  line-height: 36px;
+  @include text-style;
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+fieldset {
+  border: none;
+}
+
+.footer-wrap {
+  display: flex;
+}
+
+.footer-wrap-forms-name,
+.footer-wrap-forms-email,
+.footer-wrap-forms-text {
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px 0 7px 12px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  line-height: 24px;
+  @include text-style;
+  color: $color-blue;
+}
+
+.footer-wrap-forms-name,
+.footer-wrap-forms-email,
+.footer-wrap-forms-text:focus {
+  outline: 0;
+}
+
+.footer-wrap-forms-button {
+  margin: 18px 180px 0 180px;
+  padding: 12px 50px 7px 50px;
+  color: $color-blue;
+  font-size: 16px;
+  line-height: 24px;
+  @include text-style;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-wrap-contacts {
+  padding-left: 45px;
+}
+
+.skype,
+.icq,
+.e-mail,
+.phone {
+  padding-bottom: 18px;
+  color: $color-white;
+  font-size: 16px;
+  line-height: 24px;
+  @include text-style;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons-twitter,
+.icons-facebook,
+.icons-google,
+.icons-vk {
+  margin-top: 47px;
+  margin-right: 3px;
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+}
+
+.icons-twitter:hover,
+.icons-facebook:hover,
+.icons-google:hover,
+.icons-vk:hover {
+  border-radius: 50%;
+  background-color: #989898;
+}

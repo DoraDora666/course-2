@@ -1,0 +1,69 @@
+.buy {
+  padding: 45px 137px 50px 145px;
+}
+
+.buy-header {
+  font-size: 30px;
+  line-height: 36px;
+  color: $color-blue;
+  @include text-style;
+  text-align: center;
+}
+
+.buy-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.buy-price-wrap {
+  background-color: $color-blue;
+  border-radius: 5px;
+}
+
+.buy-price-wrap-header {
+  color: $color-white;
+  @include text-style;
+  font-weight: 300;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 14px;
+  padding-bottom: 7px;
+}
+
+.buy-price-wrap-price {
+  background: $color-white;
+  border: 2px solid #445162;
+  box-sizing: border-box;
+  text-align: center;
+  color: $color-blue;
+  font-size: 40px;
+  line-height: 30px;
+  padding: 25px 0 16px 0;
+}
+
+.buy-price-wrap-points {
+  color: $color-white;
+  font-size: 14px;
+  line-height: 24px;
+  @include text-style;
+  justify-content: space-between;
+  padding: 5px 5px 14px 40px;
+}
+
+.buy-price-wrap-button {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: $color-blue;
+  text-align: center;
+  border: $color-blue 1px;
+  border-radius: 5px;
+  padding: 10px 125px;
+  margin: 0 19px 19px 19px;
+}
+
+.buy-price-wrap-button:focus {
+  outline: 0;
+}
